@@ -142,126 +142,208 @@ ru:
     models: 
       spree/address: 
         one: Адрес
+        few: Адреса
+        many: Адресов
         other: Адреса
       spree/adjustment:
         one: Надбавка
+        few: Надбавки
+        many: Надбавок
         other: Надбавки
       spree/calculator:
         one: Калькулятор
+        few: Калькулятора
+        many: Калькуляторов
         other: Калькуляторы
       spree/cheque_payment: 
         one: Оплата чеком
+        few: Платежа чеком
+        many: Платежей чеком
         other: Платежи чеком
       spree/configuration:
         one: Конфигурация
+        few: Конфигурации
+        many: Конфигураций
         other: Конфигурации
       spree/country: 
         one: Страна
+        few: Страны
+        many: Стран
         other: Страны
       spree/credit_card: 
-        one: "Кредитная карта"
-        other: "Кредитные карты"
+        one: Кредитная карта
+        few: Кредитные карты
+        many: Кредитных карт
+        other: Кредитные карты
       spree/creditcard_payment: 
-        one: "Платёж кредитной картой"
-        other: "Платёжи кредитной картой"
+        one: Платёж кредитной картой
+        few: Платежа кредитной картой
+        many: Платежей кредитной картой
+        other: Платежи кредитной картой
       spree/creditcard_txn: 
-        one: "Транзакция кредитной картой"
-        other: "Транзакции кредитной картой"
+        one: Транзакция кредитной картой
+        few: Транзакции кредитной картой
+        many: Транзакций кредитной картой
+        other: Транзакции кредитной картой
       spree/inventory_unit: 
-        one: "Inventory Unit"
-        other: "Inventory Units"
+        one: Inventory Unit
+        few: Inventory Units
+        many: Inventory Units
+        other: Inventory Units
       spree/image:
         one: Изображение
+        few: Изображения
+        many: Изображений
         other: Изображения
       spree/line_item: 
-        one: "Позиция"
-        other: "Позиции"
+        one: Позиция
+        few: Позиции
+        many: Позиций
+        other: Позиции
       spree/mail_method:
         one: Метод отправки почты
+        few: Метода отправки почты
+        many: Методов отправки почты
         other: Методы отправки почты
       spree/option_type:
         one: Тип опции
+        few: Типа опций
+        many: Типов опций
         other: Типы опций
       spree/option_value:
         one: Значение опции
+        few: Значения опции
+        many: Значений опций
         other: Значения опции
       spree/order: 
         one: Заказ
+        few: Заказа
+        many: Заказов
         other: Заказы
       spree/payment: 
         one: Платёж
+        few: Платежа
+        many: Платежей
         other: Платежи
       spree/payment_method:
         one: Способ оплаты
+        few: Способа оплаты
+        many: Способов оплаты
         other: Способы оплаты
       spree/preference:
         one: Настройка
+        few: Настройки
+        many: Настроек
         other: Настройки
       spree/product: 
         one: Товар
+        few: Товара
+        many: Товаров
         other: Товары
       spree/product_option_type:
         one: Тип опции продукта
+        few: Типа опций продукта
+        many: Типов опций продукта
         other: Типы опций продукта
       spree/product_property:
         one: Свойство товара
+        few: Свойства товара
+        many: Свойств товара
         other: Свойства товара
       spree/product_scope:
         one: Фильтр
+        few: Фильтра
+        many: Фильтров
         other: Фильтры
       spree/promotion:
         one: Промо-акция
+        few: Промо-акции
+        many: Промо-акций
         other: Промо-акции
       spree/promotion_rule:
         one: Правило промо-акции
+        few: Правила промо-акции
+        many: Правил промо-акций
         other: Правила промо-акции
       spree/property: 
         one: Свойство
+        few: Свойства
+        many: Свойств
         other: Свойства
       spree/prototype: 
         one: Прототип
+        few: Прототипа
+        many: Прототипов
         other: Прототипы
       spree/return_authorization: 
         one: Return Authorization
+        few: Return Authorizations
+        many: Return Authorizations
         other: Return Authorizations
       spree/role: 
         one: Роль
+        few: Роли
+        many: Ролей
         other: Роли
       spree/shipment: 
         one: Доставка
+        few: Доставки
+        many: Доставок
         other: Доставки
       spree/shipping_category: 
-        one: "Категория доставки"
-        other: "Категории доставки"
+        one: Категория доставки
+        few: Категории доставки
+        many: Категорий доставки
+        other: Категории доставки
       spree/shipping_method:
         one: Способ доставки
+        few: Способа доставки
+        many: Способов доставки
         other: Способы доставки
       spree/state: 
         one: Область/Регион
+        few: Области/Региона
+        many: Областей/Регионов
         other: Области/Регионы
       spree/tax_category: 
-        one: "Категория налогов"
-        other: "Категории налогов"
+        one: Категория налогов
+        few: Категории налогов
+        many: Категорий налогов
+        other: Категории налогов
       spree/tax_rate: 
-        one: "Ставка налога"
-        other: "Ставки налога"
+        one: Ставка налога
+        few: Ставки налога
+        many: Ставок налога
+        other: Ставки налога
       spree/taxon: 
         one: Рубрика
+        few: Рубрики
+        many: Рубрик
         other: Рубрики
       spree/taxonomy: 
         one: Категория
+        few: Категории
+        many: Категорий
         other: Категории
       spree/tracker:
         one: Трекер
+        few: Трекера
+        many: Трекеров
         other: Трекеры
       spree/user: 
         one: Пользователь
+        few: Пользователя
+        many: Пользователей
         other: Пользователи
       spree/variant: 
         one: Вариант
+        few: Варианта
+        many: Вариантов
         other: Варианты
       spree/zone: 
         one: Зона
+        few: Зоны
+        many: Зон
         other: Зоны
   add: "Добавить"
   add_action_of_type: "Добавить действие типа"
