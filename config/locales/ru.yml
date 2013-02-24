@@ -143,9 +143,18 @@ ru:
       spree/address: 
         one: Адрес
         other: Адреса
+      spree/adjustment:
+        one: Надбавка
+        other: Надбавки
+      spree/calculator:
+        one: Калькулятор
+        other: Калькуляторы
       spree/cheque_payment: 
         one: Оплата чеком
         other: Платежи чеком
+      spree/configuration:
+        one: Конфигурация
+        other: Конфигурации
       spree/country: 
         one: Страна
         other: Страны
@@ -161,18 +170,51 @@ ru:
       spree/inventory_unit: 
         one: "Inventory Unit"
         other: "Inventory Units"
+      spree/image:
+        one: Изображение
+        other: Изображения
       spree/line_item: 
         one: "Позиция"
         other: "Позиции"
+      spree/mail_method:
+        one: Метод отправки почты
+        other: Методы отправки почты
+      spree/option_type:
+        one: Тип опции
+        other: Типы опций
+      spree/option_value:
+        one: Значение опции
+        other: Значения опции
       spree/order: 
         one: Заказ
         other: Заказы
       spree/payment: 
         one: Платёж
         other: Платежи
+      spree/payment_method:
+        one: Способ оплаты
+        other: Способы оплаты
+      spree/preference:
+        one: Настройка
+        other: Настройки
       spree/product: 
         one: Товар
         other: Товары
+      spree/product_option_type:
+        one: Тип опции продукта
+        other: Типы опций продукта
+      spree/product_property:
+        one: Свойство товара
+        other: Свойства товара
+      spree/product_scope:
+        one: Фильтр
+        other: Фильтры
+      spree/promotion:
+        one: Промо-акция
+        other: Промо-акции
+      spree/promotion_rule:
+        one: Правило промо-акции
+        other: Правила промо-акции
       spree/property: 
         one: Свойство
         other: Свойства
@@ -191,6 +233,9 @@ ru:
       spree/shipping_category: 
         one: "Категория доставки"
         other: "Категории доставки"
+      spree/shipping_method:
+        one: Способ доставки
+        other: Способы доставки
       spree/state: 
         one: Область/Регион
         other: Области/Регионы
@@ -206,6 +251,9 @@ ru:
       spree/taxonomy: 
         one: Категория
         other: Категории
+      spree/tracker:
+        one: Трекер
+        other: Трекеры
       spree/user: 
         one: Пользователь
         other: Пользователи
