@@ -388,7 +388,7 @@ ru:
   alternative_phone: "Дополнительный телефон"
   amount: "Сумма"
   analytics_trackers: "Трекеры веб-аналитики"
-  and: and
+  and: и
   apply: "Применить"
   are_you_sure: "Вы уверены"
   are_you_sure_category: "Вы уверены, что хотите удалить эту категорию?"
@@ -464,6 +464,7 @@ ru:
   charges: "Сборы"
   checkout: "Оформление заказа"
   choose_currency: "Выбрать валюту"
+  choose_dashboard_locale: "Выбрать язык"
   cheque: "Чек"
   city: "Город"
   clone: "Клонировать"
@@ -565,6 +566,7 @@ ru:
   enable_login_via_login_password: "Авторизоваться с помощью пары email/пароль"
   enable_login_via_openid: "Авторизоваться с помощью OpenID"
   enable_mail_delivery: "Включить доставку почты"
+  end: "конец"
   ending_in: "Оканчивается"
   enter_at_least_five_letters: "Введите хотя бы пять символов имени клиента"
   enter_exactly_as_shown_on_card: "Пожалуйста, введите точно как показано на карте"
@@ -1134,6 +1136,7 @@ ru:
   s3_used_for_product_images: "S3 is being used for product images"
   sales_tax: "Налог с продаж"
   sales_total: "Итого (продажи)"
+  sales_totals: "Общий объём продаж"
   sales_total_description: "Общий объём продаж по всем заказам"
   save_and_continue: "Сохранить и продолжить"
   save_preferences: "Сохранить настройки"
@@ -1335,7 +1338,7 @@ ru:
     must_be_int: "должно быть целым числом"
     must_be_non_negative: "должно быть неотрицательным числом"
   value: "Значение"
-  variant: Variant
+  variant: "Вариант"
   variants: "Варианты"
   vat: "НДС"
   version: "Версия"
