@@ -94,7 +94,7 @@ ru:
         code: Код
         description: Описание
         event_name: Название события
-        expires_at: Истекает в
+        expires_at: Истекает
         name: Название
         path: Путь
         starts_at: Начинается
@@ -349,8 +349,9 @@ ru:
   add_action_of_type: "Добавить действие типа"
   add_category: "Добавить категорию"
   add_country: "Добавить страну"
-  add_new_header: "Add New Header"
-  add_new_style: "Add New Style"
+  add_new_header: "Добавить заголовок"
+  add_new_style: "Добавить стиль"
+  add_one: "Добавить"
   add_option_type: "Добавить опцию"
   add_option_types: "Добавить опции"
   add_option_value: "Добавить значение опции"
@@ -400,7 +401,7 @@ ru:
   attachment_default_style: "Стандартный стиль прикреплённого файла"
   attachment_default_url: "Стандартный url прикреплённого файла"
   attachment_path: "Путь к прикреплённому файлу"
-  attachment_styles: "Paperclip Styles"
+  attachment_styles: "Стили Paperclip"
   authorization_failure: "Ошибка авторизации"
   authorized: "Авторизован"
   availability: "Доступность"
@@ -410,10 +411,12 @@ ru:
   back: "Назад"
   back_end: "в администраторском интерфейсе"
   back_to_adjustments_list: "Back To Adjustments List"
+  back_to_countries_list: "Вернуться к списку стран"
   back_to_images_list: "Вернуться к списку изображений"
-  back_to_mail_methods_list: "Вернуться к методам списку методов отправки почты"
+  back_to_mail_methods_list: "Вернуться списку методов отправки почты"
   back_to_option_types_list: "Вернуться к списку товарных опций"
-  back_to_payments_list: "Вернуться к списку способов оплаты"
+  back_to_orders_list: "Вернуться к списку заказов"
+  back_to_payment_methods_list: "Вернуться к списку способов оплаты"
   back_to_products_list: "Вернуться к списку товаров"
   back_to_promotions_list: "Вернуться к списку промо акций"
   back_to_properties_list: "Вернуться к списку свойств товаров"
@@ -424,8 +427,10 @@ ru:
   back_to_states_list: "Вернуться к списку регионов/областей"
   back_to_store: "Назад к списку"
   back_to_tax_categories_list: "Вернуться к списку категорий налогов"
+  back_to_tax_rates_list: "Вернуться к списку налоговых ставок"
   back_to_taxonomies_list: "Вернуться к списку таксономий"
   back_to_trackers_list: "Вернуться к списку трекеров веб-аналитики"
+  back_to_users_list: "Вернуться к списку пользователей"
   back_to_zones_list: "Вернуться к списку торговых зон"
   backordered: "предзаказ"
   backordering_is_allowed: "Предварительные заказы %{not} разрешены"
@@ -458,6 +463,7 @@ ru:
   charged: "Оплачено"
   charges: "Сборы"
   checkout: "Оформление заказа"
+  choose_currency: "Выбрать валюту"
   cheque: "Чек"
   city: "Город"
   clone: "Клонировать"
@@ -477,8 +483,10 @@ ru:
   continue_shopping: "Продолжить покупки"
   copy_all_mails_to: "Копировать все письма на"
   cost_price: "Себестоимость"
+  cost_currency: "Валюта стоимости"
   count_of_reduced_by: "количество '%{name}' уменьшено на %{count}"
   country: "Страна"
+  countries: "Страны"
   country_based: "Страна"
   coupon: "Купон"
   coupon_code: "Код купона"
@@ -531,6 +539,7 @@ ru:
   edit_general_settings: "Редактировать общие настройки"
   editing_billing_integration: "Редактировать интеграцию с биллингом"
   editing_category: "Редактирование категории"
+  editing_country: "Редактирование страны"
   editing_mail_method: "Редактирование метода отправки почты"
   editing_option_type: "Редактирование опции"
   editing_option_types: "Редактирование опций"
@@ -571,6 +580,8 @@ ru:
       no_shipping_methods_available: "Для указанного местоположения отсутствуют способы доставки, пожалуйста, смените адрес и попробуйте снова."
   errors_prohibited_this_record_from_being_saved: 
     one: "1 ошибка не позволяет сохранить запись в базе"
+    few: "%{count} ошибки не позволяют сохранить запись в базе"
+    many: "%{count} ошибок не позволяют сохранить запись в базе"
     other: "%{count} ошибок не позволяют сохранить запись в базе"
   event: "Событие"
   events: 
@@ -594,6 +605,7 @@ ru:
   extension: "Расширение"
   extensions: "Расширения"
   filename: "Имя файла"
+  filter_results: "Поиск"
   final_confirmation: "Окончательное подтверждение"
   finalize: "Завершить"
   finalized_payments: "Завершённые платежи"
@@ -630,6 +642,7 @@ ru:
   has_no_shipped_units: "не имеет отправленных единиц учёта"
   height: "Высота"
   hello_user: "Добро пожаловать"
+  hide_cents: "Не отображать копейки"
   history: "История"
   home: "Домой"
   icon: "Иконка"
@@ -674,6 +687,7 @@ ru:
   leave_blank_to_not_change: "(оставьте пустым, если не хотите менять его)"
   list: "Список"
   listing_categories: "Список категорий"
+  listing_countries: "Список стран"
   listing_option_types: "Список опций"
   listing_orders: "Список заказов"
   listing_product_groups: "Список групп товаров"
@@ -753,8 +767,10 @@ ru:
   next: "след."
   no: "Нет"
   no_items_in_cart: "нет товаров к корзине"
+  no_mail_methods_defined: "Нет методов отправки почты"
   no_match_found: "Совпадений не найдено"
   no_products_found: "Не найдено ни одного товара"
+  no_promotions_found: "Не найдено ни одной промо-акции"
   no_results: "Ничего не найдено"
   no_rules_added: "Ни одного правила не задано"
   no_user_found: "Пользователь с таким адресом email не найден."
@@ -790,6 +806,7 @@ ru:
   order_date: "Дата заказа"
   order_details: "Детали заказа"
   order_email_resent: "Письмо с описанием заказа выслано повторно"
+  order_information: "Инорфмация о заказе"
   order_mailer: 
     cancel_email: 
       dear_customer: "Дорогой покупатель,"
@@ -1178,7 +1195,7 @@ ru:
   shipping_total: "Доставка"
   shop_by_taxonomy: "%{taxonomy}"
   shopping_cart: "Корзина"
-  short_description: "Short description"
+  short_description: "Короткое описание"
   show: "Показать"
   show_active: "Показать активные"
   show_deleted: "Показать удаленные"
@@ -1204,6 +1221,13 @@ ru:
   sort_ordering: "Порядок сортировки"
   special_instructions: "Дополнительные инструкции"
   spree: 
+    api:
+      access: "Доступ к API"
+      clear_key: "Удалить ключ"
+      generate_key: "Сгенерировать ключ"
+      key: "Ключ"
+      no_key: "Нет ключа"
+      regenerate_key: "Перегенерировать ключ"
     date: "Дата"
     date_picker: 
       format: '%Y/%m/%d'
@@ -1295,7 +1319,7 @@ ru:
   use_billing_address: "Использовать платёжный адрес"
   use_different_shipping_address: "использовать другой адрес доставки"
   use_new_cc: "Использовать новую карту"
-  use_s3: "Use Amazon S3 For Images"
+  use_s3: "Использовать Amazon S3"
   user: "Пользователь"
   user_account: "Учетная запись пользователя"
   user_created_successfully: "Учётная запись успешно создана"
@@ -1316,6 +1340,12 @@ ru:
   vat: "НДС"
   version: "Версия"
   view_shipping_options: "Посмотреть настройки отправки"
+  views:
+    pagination:
+      first: "<<"
+      last: ">>"
+      next: ">"
+      previous: "<"
   void: "Анулировать"
   website: "Сайт"
   weight: "Вес"
@@ -1325,7 +1355,7 @@ ru:
   whats_this: "Что это"
   width: "Ширина"
   year: "Год"
-  yes: "Yes"
+  yes: "Да"
   you_have_been_logged_out: "Вы вышли из системы. До свидания!"
   you_have_no_orders_yet: "У Вас ещё нет заказов."
   your_cart_is_empty: "Ваша корзина пуста"
